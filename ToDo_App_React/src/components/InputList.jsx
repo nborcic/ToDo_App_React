@@ -63,7 +63,7 @@ function InputList() {
                   <button
                     type="button"
                     id="lineOverMe"
-                    className="text-white w-10 p-2 flex bg-indigo-700 rounded-md"
+                    className="text-white w-10 p-2 bg-indigo-700 rounded-md"
                     onClick={() => lineOverMe(id)}
                   >
                     <Icon icon="mdi:done" className="w-6 h-6 m-0 p-0 " />
@@ -71,7 +71,7 @@ function InputList() {
                   <button
                     type="button"
                     id="deleteMe"
-                    className="text-white w-10 p-2 grid float-right bg-indigo-700 rounded-md"
+                    className="text-white w-10 p-2 bg-indigo-700 rounded-md"
                     onClick={() => deleteMe(id)}
                   >
                     <Icon
